@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     html {
-        font-size: 58.8%;
+        font-size: 60%;
     }
 
     .nav__right {
@@ -24,15 +24,11 @@
 
 @media (max-width: 575.98px) {
     html {
-        font-size: 57.7%;
+        font-size: 58.8%;
     }
 }
 
 @media (max-width: 425px) {
-    html {
-        font-size: 56.6%;
-    }
-
     #footer {
         padding: 12px 0;
     }
