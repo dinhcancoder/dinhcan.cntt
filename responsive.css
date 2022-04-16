@@ -23,12 +23,14 @@
 }
 
 @media (max-width: 575.98px) {
-    html {
-        font-size: 58.8%;
-    }
+    
 }
 
 @media (max-width: 425px) {
+    html {
+        font-size: 58.8%;
+    }
+
     #footer {
         padding: 12px 0;
     }

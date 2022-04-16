@@ -199,3 +199,43 @@ body {
     font-size: 2.8rem;
     cursor: pointer;
 }
+
+.menu {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+.menu__time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu__time a {
+    font-size: 1.8rem;
+    letter-spacing: .8px;
+}
+
+.menu__time i {
+    font-size: 2.4rem;
+    transition: all .2s linear;
+}
+
+.menu__time i:hover {
+    color: #0166d6;
+    transform: rotate(90deg);
+}
+
+.nav__mobile-icons .menu {
+    transform: translateX(100%);
+}
+
+.nav__mobile-icons.showMenu .menu {
+    transform: translateX(0);
+}
