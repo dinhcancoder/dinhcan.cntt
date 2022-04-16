@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+#header {
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav > * {
+    flex-basis: 100%;
+}
+
+.nav__logo a {
+    display: flex;
+    align-items: center;
+    font-size: 1.92rem;
+    color: darkblue;
+    letter-spacing: 1.5px;
+    cursor: default;
+}
+
+.nav__logo i {
+    font-size: 2.8rem;
+    color: darkblue;
+    margin-right: 12px;
+    animation: turn 2.2s linear infinite;
+}
+
+@keyframes turn {
+    to {
+        transform: rotate(360deg);
+    }
+    from {
+        color: blue;
+    }
+}
+
+.nav__right-list {
+    display: flex;
+    justify-content: end;
+    gap: 0 25px;
+}
+
+.nav__right-list a {
+    position: relative;
+    font-size: 1.4rem;
+    color: black;
+    padding: 5px 0;
+    letter-spacing: 1.2px;
+    transition: all .2s ease-in-out;
+}
+
+.nav__right-list a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .2s ease-in-out;
+}
+
+.nav__right-list a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.nav__right-list a:hover {
+    color: blue;
+}
+
+.form__login {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.form {
+    width: 310px;
+}
+
+.form h2 {
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.form .btn {
+    margin: 0 auto;
+    text-align: center;
+    padding: 8.5px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn__one {
+    background-color: #0166d6;
+}
+
+.form p {
+    display: block;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(84, 84, 84);
+    margin: 28px 0 15px 0;
+}
+
+.form__email span,
+.form__password-box {
+    display: block;
+    margin: 20px 0 10px 0;
+}
+
+.form__password-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__password-box a {
+    font-size: 1.28rem;
+    color: rgb(55, 112, 255);
+}
+
+.form__email input,
+.form__password input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 1px rgb(172, 172, 172);
+    padding: 8px 12px;
+}
+
+.form__email input:focus,
+.form__password input:focus {
+    outline: 1.5px solid blue;
+}
+
+.form__sign {
+    margin-top: 32px;
+}
+
+.form__sign .btn {
+    background-color: #0faf51;
+}
+
+.form__sign .btn:hover {
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 80px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+.fter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fter span {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.fter ul {
+    display: flex;
+    gap: 0 15px;
+}
+
+.fter ul li a {
+    font-size: 1.3rem;
+    color: rgb(0, 120, 212);
+}
+
+.nav__mobile {
+    display: none;
+}
+
+.nav__mobile-icons {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.nav__mobile-icons i {
+    font-size: 2.8rem;
+    cursor: pointer;
+}

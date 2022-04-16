@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 62%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 58.8%;
+    }
+
+    .nav__right {
+        display: none;
+    }
+
+    .nav__mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 57.7%;
+    }
+}
+
+@media (max-width: 425px) {
+    html {
+        font-size: 56.6%;
+    }
+
+    #footer {
+        padding: 12px 0;
+    }
+
+    .fter {
+        flex-direction: column;
+    }
+
+    .fter span {
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    .fter ul {
+        justify-content: center;
+    }
+}
