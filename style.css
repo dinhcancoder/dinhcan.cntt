@@ -98,7 +98,7 @@ body {
 .form .btn {
     margin: 0 auto;
     text-align: center;
-    padding: 8.5px 0;
+    padding: 10px 0;
     border-radius: 5px;
     color: white;
 }
@@ -139,7 +139,7 @@ body {
     border: none;
     border-radius: 4px;
     box-shadow: 0 0 1px rgb(172, 172, 172);
-    padding: 8px 12px;
+    padding: 10px 12px;
 }
 
 .form__email input:focus,
